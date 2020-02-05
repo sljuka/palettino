@@ -27,7 +27,7 @@
   }
 }
 
-.pallete li {
+.palette li {
   border: 1px solid #ccc;
   width: 100px;
   height: 100px;
@@ -38,7 +38,7 @@
   animation-duration: 0.3s;
 }
 
-.pallete {
+.palette {
   min-height: 200px;
   width: 450px;
   flex-wrap: wrap;
@@ -47,11 +47,11 @@
   align-items: center;
 }
 
-.pallete-name {
+.palette-name {
   margin-bottom: 16px;
 }
 
-.pallete-error {
+.palette-error {
   color: red;
   font-size: 1.2em;
   position: fixed;
@@ -60,7 +60,17 @@
   background: white;
 }
 
-.pallete-error p {
+.palette-success {
+  color: lightgreen;
+  font-size: 1.2em;
+  position: fixed;
+  top: 5px;
+  border: 1px solid #444;
+  background: white;
+}
+
+.palette-success p,
+.palette-error p {
   padding: 5px;
   margin: 0px;
 }
