@@ -18,16 +18,29 @@
   margin-bottom: 16px;
 }
 
+@keyframes example {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 .pallete li {
   border: 1px solid #ccc;
   width: 100px;
   height: 100px;
   list-style: none;
+  border-radius: 50%;
+  margin: 2px;
+  animation-name: example;
+  animation-duration: 0.3s;
 }
 
 .pallete {
   min-height: 200px;
-  width: 420px;
+  width: 450px;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
