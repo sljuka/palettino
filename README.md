@@ -1,6 +1,6 @@
-# Pallentino
+# Palettino
 
-a hastily made color pallete manager :)
+a hastily made color palette manager :)
 
 # Instructions
 
