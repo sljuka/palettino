@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="app.css" />
+  <body>
+    <div class="container">
+      <h1 class="header">
+        Palletino
+      </h1>
+      <div class="pallete-error" id="pallete-error"></div>
+      <div class="pallete-name">
+        <input name="pallete-name" id="name-input" placeholder="Pallete name" />
+        <button id="btn-load">Load</button>
+        <button id="btn-save">Save</button>
+        <button id="btn-new">New</button>
+      </div>
+      <div class="color-input">
+        <input type="color" name="color" id="color-input" />
+        <button id="btn-save-color">Add color</button>
+        <button id="btn-add-random">Add random color</button>
+      </div>
+      <ul class="pallete" id="pallete"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

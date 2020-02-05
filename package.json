@@ -1,0 +1,15 @@
+{
+  "name": "palletino",
+  "version": "1.0.0",
+  "description": "Create collour palletes",
+  "main": "index.js",
+  "author": "David Sljukic",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

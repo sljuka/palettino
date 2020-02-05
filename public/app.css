@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #009193;
+  flex-direction: column;
+}
+
+.header {
+  text-transform: uppercase;
+}
+
+.color-input {
+  margin-bottom: 16px;
+}
+
+.buttons {
+  margin-bottom: 16px;
+}
+
+.pallete li {
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 100px;
+  list-style: none;
+}
+
+.pallete {
+  min-height: 200px;
+  width: 420px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pallete-name {
+  margin-bottom: 16px;
+}
+
+.pallete-error {
+  color: red;
+  font-size: 1.2em;
+  position: fixed;
+  top: 5px;
+  border: 1px solid #444;
+  background: white;
+}
+
+.pallete-error p {
+  padding: 5px;
+  margin: 0px;
+}
