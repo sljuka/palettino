@@ -17,8 +17,10 @@ Install dependencies
 
 Create database and collection
 
-`yarn createDb`
+`yarn setupDB`
 
 Start the server
 
 `yarn start`
+
+go to `localhost:3000` on browser
